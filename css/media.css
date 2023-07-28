@@ -1,4 +1,7 @@
 @media (max-width:575px){
+    body{
+    min-height: 90vh;
+    }
     .clock{
         height: 300px;
         width: 300px;
