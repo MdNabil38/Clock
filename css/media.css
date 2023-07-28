@@ -1,0 +1,27 @@
+@media (max-width:575px){
+    .clock{
+        height: 300px;
+        width: 300px;
+    }
+    .clock::before{
+        height: 320px;
+        width: 320px;
+    }
+    .number{
+        inset:4px;
+        font-size: 25px;
+    }
+    .hour-hand{
+        width: 10px;
+        height: 90px;
+    }
+    .minute-hand{
+        width: 8px;
+        height: 110px;
+        background: linear-gradient(to top, #00d9ff, #ee00ff);
+    }
+    .second-hand{
+        width: 5px;
+        height: 124px;
+    }
+}
